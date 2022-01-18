@@ -4,16 +4,12 @@ import "./App.css";
 import "./Other.css";
 
 
-export class Footer extends React.Component {
+export class Contact extends React.Component {
   render () {
     return (
       <>
         <footer className="AppFooter">
-          *Prices are subject to change and may not be 100% accurate.
-          <br />
-          - At the time of writing thing each link has been vetted to make sure that it works and that the product can be delievered before Christmas (Dec 25, 2021)
-          <br />
-          You can contact me through email or phone:
+         You can contact me through email or phone:
           <ul>
             <li>
               Phone: +1 (973) 936 4695
@@ -27,6 +23,10 @@ export class Footer extends React.Component {
             Hosted with care from Cloudflare as well.
             View the source code for this website at its <a className="App-link" href="https://github.com/marvelman3284/xmas21" target="_blank" rel="noreferrer"> repository </a>
           </h5>
+
+        <h4>
+          <a href="/"> Return Home </a>
+        </h4>
         </footer>
       </>
     );
@@ -41,9 +41,8 @@ export class Header extends React.Component {
           Hi there!
         </h1>
         <h3>
-          Welcome to my christmas list this year! It's pretty self explanatory but in case you don't get it:
-          Each item has a name. Underneath said name in a sublist is some information about each item including a link and a price*. 
-          For any questions you can find my contact information at the <a className="App-link" href="#footer"> bottom of the page</a>.
+          Welcome to this website! It's used for scrambling rubiks cubes as well as timing and learning algorithms!
+          For any questions you can find my contact information on the <a className="App-link" href="/contact"> contact page</a>.
         </h3>
       </header>
     );

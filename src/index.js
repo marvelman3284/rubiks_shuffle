@@ -2,14 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
-import { Gift } from './App';
-import { Undef } from './Others';
+import { Cube } from './App';
+import { Undef, Contact } from './Others';
 
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route exact path="/" element={<Gift />} />
+      <Route exact path="/" element={<Cube />} />
+      <Route exact path="/contact" element={<Contact />} />
       <Route exact path="/404" element={<Undef />} />
     </Routes>
   </BrowserRouter>,
